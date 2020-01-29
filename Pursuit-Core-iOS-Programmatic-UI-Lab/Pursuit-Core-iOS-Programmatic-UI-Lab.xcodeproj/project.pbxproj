@@ -10,10 +10,11 @@
 		F144931823E0D90900CBE76C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144931723E0D90900CBE76C /* AppDelegate.swift */; };
 		F144931A23E0D90900CBE76C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144931923E0D90900CBE76C /* SceneDelegate.swift */; };
 		F144931C23E0D90900CBE76C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144931B23E0D90900CBE76C /* ViewController.swift */; };
-		F144931F23E0D90900CBE76C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F144931D23E0D90900CBE76C /* Main.storyboard */; };
 		F144932123E0D90C00CBE76C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F144932023E0D90C00CBE76C /* Assets.xcassets */; };
 		F144932423E0D90C00CBE76C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F144932223E0D90C00CBE76C /* LaunchScreen.storyboard */; };
 		F144932F23E0D90C00CBE76C /* Pursuit_Core_iOS_Programmatic_UI_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144932E23E0D90C00CBE76C /* Pursuit_Core_iOS_Programmatic_UI_LabTests.swift */; };
+		F144933A23E0DA8700CBE76C /* Color-Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144933923E0DA8700CBE76C /* Color-Model.swift */; };
+		F144933C23E0DDD900CBE76C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144933B23E0DDD900CBE76C /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +32,14 @@
 		F144931723E0D90900CBE76C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F144931923E0D90900CBE76C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F144931B23E0D90900CBE76C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F144931E23E0D90900CBE76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F144932023E0D90C00CBE76C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F144932323E0D90C00CBE76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F144932523E0D90C00CBE76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F144932A23E0D90C00CBE76C /* Pursuit-Core-iOS-Programmatic-UI-LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pursuit-Core-iOS-Programmatic-UI-LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F144932E23E0D90C00CBE76C /* Pursuit_Core_iOS_Programmatic_UI_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pursuit_Core_iOS_Programmatic_UI_LabTests.swift; sourceTree = "<group>"; };
 		F144933023E0D90C00CBE76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F144933923E0DA8700CBE76C /* Color-Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Model.swift"; sourceTree = "<group>"; };
+		F144933B23E0DDD900CBE76C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +84,11 @@
 				F144931723E0D90900CBE76C /* AppDelegate.swift */,
 				F144931923E0D90900CBE76C /* SceneDelegate.swift */,
 				F144931B23E0D90900CBE76C /* ViewController.swift */,
-				F144931D23E0D90900CBE76C /* Main.storyboard */,
 				F144932023E0D90C00CBE76C /* Assets.xcassets */,
 				F144932223E0D90C00CBE76C /* LaunchScreen.storyboard */,
 				F144932523E0D90C00CBE76C /* Info.plist */,
+				F144933923E0DA8700CBE76C /* Color-Model.swift */,
+				F144933B23E0DDD900CBE76C /* MainView.swift */,
 			);
 			path = "Pursuit-Core-iOS-Programmatic-UI-Lab";
 			sourceTree = "<group>";
@@ -182,7 +185,6 @@
 			files = (
 				F144932423E0D90C00CBE76C /* LaunchScreen.storyboard in Resources */,
 				F144932123E0D90C00CBE76C /* Assets.xcassets in Resources */,
-				F144931F23E0D90900CBE76C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F144931C23E0D90900CBE76C /* ViewController.swift in Sources */,
+				F144933A23E0DA8700CBE76C /* Color-Model.swift in Sources */,
 				F144931823E0D90900CBE76C /* AppDelegate.swift in Sources */,
+				F144933C23E0DDD900CBE76C /* MainView.swift in Sources */,
 				F144931A23E0D90900CBE76C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,14 +229,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F144931D23E0D90900CBE76C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F144931E23E0D90900CBE76C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F144932223E0D90C00CBE76C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
